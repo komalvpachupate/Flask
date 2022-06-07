@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Keyphrase Extractor</title>
+    <link rel="stylesheet"  href = static/style.css>
+</head>
+
+<body>
+    <header>This is Key-Phrase Extractor</header>
+    <img src = "static/images/AI.jpg" class="center"  width="500", height="300" alt = ''>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5 col-sm-offset-1">
+            <form method="POST">
+                <input type="text" name="text" placeholder="Text" size="50", height="50" style="font-size: 18pt; height: 40px; width:280px;">
+                <input type="submit" size="30">
+            </form>
+        </div>
+    </div>
+    <div id="keyword_extract">
+        {% for result in keyword_extract%}
+                  {{ result }}
+        {% endfor %}
+    </div>
+</div>
+</body>

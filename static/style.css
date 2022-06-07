@@ -1,0 +1,32 @@
+header {
+    background-color: rgb(105, 24, 24);
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+img {
+    align-items: center;
+    margin: 25px 10px; 
+    
+}
+
+body {
+    background-color: rgb(201, 154, 92);
+    align-items: center;
+}
+
+form  {
+    align-items: center;
+}
+
+div {text-align: center;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
