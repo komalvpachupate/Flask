@@ -1,13 +1,8 @@
 from flask import Flask, render_template, request
-
 from preprocess import preprocess
 from keyphrase_extractor import candidate_keyword
 
 app = Flask(__name__)
-#
-# @app.route('/')
-# def home():
-#     return render_template('index.html')
 
 
 @app.route('/', methods=['GET','POST'])
